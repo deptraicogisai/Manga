@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/application",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "noImplicitAny": false,
+    "types": ["whatwg-fetch"]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+
